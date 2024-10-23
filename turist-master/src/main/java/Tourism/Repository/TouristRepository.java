@@ -17,7 +17,7 @@ public class TouristRepository {
     List<String> tags = new ArrayList<>();
     String database = "jdbc:mysql://localhost:3306/tourist_attractions";
     String username = "root";
-    String password = "Illcosby91";
+    String password = "password";
     Connection conn;
 
     public TouristRepository(){
