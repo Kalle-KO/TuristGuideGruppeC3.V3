@@ -28,22 +28,6 @@ public class TouristAttraction {
 
     public List<String> getTags() { return tags; }
 
-
-
-    public void setName(String name){
-        this.name = name;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public void setTag(String tag) { tags.add(tag); }
-
     public void setTags(ArrayList<String> tags) { this.tags = tags; }
 
 }

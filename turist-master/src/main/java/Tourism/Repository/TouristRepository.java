@@ -172,22 +172,10 @@ public class TouristRepository {
             } else {
                 System.out.println("Row deletion failed. Name not found");
             }
-
         }
         catch (Exception e) {
             System.out.println("Error deleting profile" + e.getMessage());
         }
-
-
-        /*Iterator<TouristAttraction> iterator = touristAttractionList.iterator();
-        while(iterator.hasNext()){
-            TouristAttraction touristAttraction = iterator.next();
-            if(touristAttraction.getName().equals(name)){
-                iterator.remove();
-                return touristAttraction;
-            }
-        }
-        return null;*/
         return null;
     }
 

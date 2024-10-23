@@ -102,7 +102,6 @@ blockquote {
 
 }
 
-/* Stack the layout on small devices/viewports. */
 @media all and (max-width: 575px) {
     body {
         grid-template-areas:
@@ -115,6 +114,6 @@ blockquote {
     }
 
     ul {
-        margin: 1em 0; /* Adjust margin for smaller screens */
+        margin: 1em 0;
     }
 }

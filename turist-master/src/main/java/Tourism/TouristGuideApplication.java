@@ -18,7 +18,6 @@ public class TouristGuideApplication {
     public List<TouristAttraction> getTouristAttractionList(){ return touristRepository.getTouristAttractionList();}
 
     public TouristAttraction getAttractionByName(String name){
-        //TouristAttraction touristAttraction = touristRepository.getAttractionByName(name);
         TouristAttraction touristAttraction = touristRepository.readAttractionByName(name);
         return touristAttraction;
     }
@@ -28,7 +27,6 @@ public class TouristGuideApplication {
         return touristAttraction;
     }
 
-    //Måske
     public void saveAttraction(TouristAttraction touristAttraction){
         touristRepository.saveAttraction(touristAttraction);
     }
